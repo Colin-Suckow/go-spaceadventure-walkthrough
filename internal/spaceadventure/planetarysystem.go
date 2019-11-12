@@ -1,5 +1,6 @@
 package spaceadventure
 
 type PlanetarySystem struct {
-	Name string
+	Name    string
+	Planets []Planet
 }
